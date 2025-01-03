@@ -33,14 +33,14 @@ docker image tag sitioweb:latest final/sitioweb:1.0
 ```
 
 Algunos otros comando útiles:
-Construir una imagen desde un archivo Dockerfile sin la caché: `docker build -t <nombre_de_imagen> . -no-cache` 
-Eliminar todas las imágenes no utilizadas `docker image prune` 
-Inicie sesión en Docker `docker login -u <nombredeusuario>` 
-Publica una imagen en Docker Hub `docker push <nombre_usuario>/<nombre_imagen>` 
-Buscar una imagen en Hub `docker search <nombre_imagen>` 
-Extraer una imagen de un Docker Hub `docker pull <nombre_imagen>`
-Detener contenedor: `docker stop <id_contenedor>`
-Eliminar contenedor: `docker rm <id_contenedor>`
+Construir una imagen desde un archivo Dockerfile sin la caché: `docker build -t <nombre_de_imagen> . -no-cache`  
+Eliminar todas las imágenes no utilizadas `docker image prune`  
+Inicie sesión en Docker `docker login -u <nombredeusuario>`  
+Publica una imagen en Docker Hub `docker push <nombre_usuario>/<nombre_imagen>`  
+Buscar una imagen en Hub `docker search <nombre_imagen>`  
+Extraer una imagen de un Docker Hub `docker pull <nombre_imagen>`  
+Detener contenedor: `docker stop <id_contenedor>`  
+Eliminar contenedor: `docker rm <id_contenedor>`  
 
 ## Crear 2 contenedores a partir de la misma imagen
 Flask utiliza el puerto 5000
