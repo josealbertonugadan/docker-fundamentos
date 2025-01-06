@@ -1,5 +1,5 @@
 # docker-fundamentos
-Curso de Docker
+Curso de Docker Fundamentos
 
 ## Para construir la imagen con nombre/tag <name>
 ```
