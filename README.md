@@ -48,3 +48,6 @@ Flask utiliza el puerto 5000
 docker run -it --rm -d -p 8081:5000 --name web_api sitio_api
 docker run -it --rm -d -p 8080:5000 --name web_api_2 sitio_api
 ```
+
+## Volúmenes
+Los volúmenes en Docker ofrecen la capacidad de compartir una unidad de disco o carpeta entre tu equipo local y un contenedor activo. No son meros espacios de almacenamiento, sino que actúan como puentes dinámicos de datos entre nuestro entorno local y los contenedores ejecutándose en Docker, permitiendo una interacción directa y en tiempo real con nuestras aplicaciones.
